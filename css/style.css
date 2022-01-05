@@ -361,7 +361,7 @@ html{
 .about .row .image{
     flex: 1 1 45rem;
 }
-.about .row .image{
+.about .row .image img{
     width: 100%;
 }
 
@@ -381,8 +381,43 @@ html{
     font-size: 1.5rem;
     line-height: 1.8;
 }
-
 /*About Section Ends*/
+
+
+
+/* Covid Section Starts */
+.covid .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.covid .row .image{
+    flex: 1 1 45rem;
+}
+.covid .row .image img{
+    width: 100%;
+}
+
+.covid .row .content{
+    flex: 1 1 45rem;
+}
+
+.covid .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.covid .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/*Covid Section  Ends*/
 /*Booking Section Starts*/
 
 .book .row{
