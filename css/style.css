@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.2s ease-in-out;
+    color: #000;
+    text-decoration: none;
+}
+
+::selection{
+    background-color: var(--Soft-Red);
+    color: #fff;
+}
+
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--Soft-Blue);
+}
+
+section {
+    padding: 2rem 9%;
+}
+.icon-container{
+    padding: 2rem 15%;
+    background-color: #f2f4f8;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 4.5rem;
+    color: var(--Very-Dark-Blue);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+.all-btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    background-color: var(--Soft-Blue);
+    border-radius: .5rem;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.all-btn:hover{
+    background-color: transparent;
+    color: var(--Soft-Blue);
+    border: 2px solid var(--Soft-Blue);
+}
+
+
+:root{
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%);
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --box-shadow: .5rem .5rem  0 hsl(231, 69%, 60%);
+    --border: .2rem  solid var(--Soft-Blue);
+}
+
+
+/* navbar sections starts */
+.header{
+    padding: 2rem  9%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+    box-shadow: 0 .5rem  1.5rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    height: 8rem;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+.header .logo i{
+    color: var(--Soft-Blue);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color: var(--Soft-Blue);
+}
+
+.header .navbar .btn{
+    padding: .6rem 3rem;
+    background-color: var(--Soft-Red);
+    color: #fff;
+    border-radius: .5rem;
+}
+
+.header .navbar .btn:hover{
+    color: var(--Soft-Red);
+    background-color: transparent;
+    border: 2px solid var(--Soft-Red);
+}
+
+#menu-btn{
+    padding: 1rem 1rem;
+    background-color: #eee;
+    font-size: 3rem;
+    color: var(--Soft-Blue);
+    border-radius: .5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* Media Queries */
+
+
+
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    
+}
+
+@media (max-width: 768px){
+    #menu-btn{
+        display: initial;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 115%;
+        right: 2rem;
+        box-shadow: var(--box-shadow);
+        width: 33rem;
+        border-radius: .5rem;
+        border: 2px solid var(--Soft-Blue);
+        background-color: #fff;
+        transform: scale(0);
+        transform-origin: top right;
+    }
+
+    .header .navbar.active{
+        transform: scale(1);
+    }
+
+    .header .navbar a{
+        margin: 2.5rem;
+        text-align: center;
+        display: block;
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
+/* navbar sections ends */
+
+
+/* home section starts  */
+
+.home{
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* main property for responsiveness */
+    gap: 1.5rem;
+}
+
+
+.home .image{
+    flex: 1 1 45rem;
+}
+
+
+.home .image img{
+    width: 100%;
+}
+
+
+.home .content{
+    flex: 1 1 45rem;
+}
+
+
+.home .content h1{
+    font-size: 4.5rem;
+    padding-block-end: 1rem 0;
+    color: var(--Very-Dark-Blue);
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    max-width: 40rem;
+    color: #000;
+    padding-bottom: 4rem;
+}
+
+.home .content .home-btn{
+    padding: 1.3rem 2rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4rem;
+    box-shadow: .5rem .5rem hsl(231, 69%, 60%);
+    border: 2px solid var(--Soft-Blue);
+    border-radius: .5rem;
+    margin-right: 2rem;
+}
+
+
+.home .content .home-btn:hover{
+    background-color: var(--Soft-Blue);
+    box-shadow: none;
+    color: #fff;
+}
+
+
+
+
+/* home section ends */
+
+
+
+
+
+/*OUr Specitality Section */
+.icon-container .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.icon-container .box-container .box {
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+  flex: 1 1 30rem;
+  position: relative;
+}
+
+.icon-container .box-container .box img {
+  height: 10rem;  
+  object-fit: cover;
+  width: 10rem;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.icon-container .box-container .box .price {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.icon-container .box-container .box h3 {
+  color: #333;
+  font-size: 2.3rem;
+  padding-top: 1rem;
+}
+
+
+
+
+
+/*OUr Specitality Section */
+
+/* Services section starts  */
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+
+
+.services .box-container .box{
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2.5rem;
+}
+.services .box-container .box:hover{
+    box-shadow: none    ;
+}
+
+.services .box-container .box i{
+    color: var(--Very-Dark-Blue);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+}
+.services .box-container .box h3{
+    color: var(--black);
+    padding: 1rem 0;
+    font-size: 2.5rem ;
+}
+
+.services .box-container .box p{
+    color: var(--light-color);
+    line-height: 2;
+    font-size: 1.4rem;
+}
+
+/* Services section ends */
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+.about .row .image{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.about .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/*About Section Ends*/
+/*Booking Section Starts*/
+
+.book .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.book .row .image{
+    flex: 1 1 45rem;
+}
+.book .row .image img{ 
+    width: 100%;
+}
+.book .row form{ 
+    flex: 1 1 45rem;
+    background-color: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form h3{
+    color: var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.book .row form .box{
+    width: 100%;
+    margin: .7rem 0;
+    border: .7rem;
+    border: var(--border);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+
+
+
+/*Booking Section Ends*/
+/* footer section starts */
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap:2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--green);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right:1rem;
+}
+
+
+.footer .credit{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+
+.footer .credit span{
+    color: var(--Soft-Red);
+    cursor: pointer;
+}
+
+
+/* footer section ends */
