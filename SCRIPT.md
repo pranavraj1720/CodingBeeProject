@@ -21,8 +21,6 @@ Pranav: So this site, is a Template that we have created for Medcare Hospital. O
 Omeshwar: So we have created the interface simple and classic so that any common person who is not much familar with the technology can use the website smoothly without any problems. Each and every main contents are avaliable on the home page that can be easily accessbile. 
 
 Pranav: For Example, we have created an section of book appointment where anyone can fill the basic details like name, mobile number, email id and book appointment with one of our doctors based on the disease they have choosen.
-So, as we told that this is a demo website related to a medcare hospital, if we are working with an real hospital site 
-e can add others services which they are providing but in this we have included the most common services that each and every hospital has. 
 
 Omeshwar: Also the images we have used in this site are vector images not real images as medcare is not a real hospital. We have used vector images because they are copyright free and all the images can be used in svg format which is very good for the SEO of the website. Accordinly if we are working with a real hospital we can add their own images in place of vector images so that it can look more realistic.
 
