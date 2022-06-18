@@ -6,7 +6,7 @@ My name is Pranav.
 Omeshwar: And My name is Omeshwar.
 We are from Podar International School, Vadodara.
 
-Pranav: We are thankful for this immense opportunity that we presenting our idea on this huge platform.
+Pranav: We are thankful for this immense opportunity that we got the chance to present our idea on this huge platform.
 
 ## Idea/Project
 Omeshwar: So, our whole project is based on healthcare.
@@ -16,9 +16,9 @@ Pranav: That's why we have choosen this theme and created this website based on 
 And codingbee has given us this opportunity to express our idea.
 
 ## Body
-Pranav: Pranav: So this site, is a demo site that we have created for Medcare Hospital. Obvisouly medcare is not a real hospital, but if we are using this template with any real hospital we can change the content accordingly as we have added the most common features every hospital website has. 
+Pranav: So this site, is a demo site that we have created for Medcare Hospital. Obvisouly medcare is not a real hospital, but if we are using this template with any real hospital we can change the content accordingly as we have added the most common features every hospital website has. 
 
-Omeshwar: So we have created the interface simple and classic so that any common people who is not much familar with the technology can use the website smoothly without any problems. Each and every main contents are avaliable on the home page that can be easily accessbile. 
+Omeshwar: So we have created the interface simple and classic so that any common person who is not much familar with the technology can use the website smoothly without any problems. Each and every main contents are avaliable on the home page that can be easily accessbile. 
 
 Pranav: For Example, we have created an section of book appointment where anyone can fill the basic details like name, mobile number, email id and book appointment with one of our doctors based on the disease they have choosen.
 So, as we told that this is a demo website related to a medcare hospital, if we are working with an real hospital site 
