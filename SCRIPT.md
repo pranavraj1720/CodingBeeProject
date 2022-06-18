@@ -16,7 +16,7 @@ Pranav: That's why we have choosen this theme and created this website based on 
 And codingbee has given us this opportunity to express our idea.
 
 ## Body
-Pranav: So this site, is a demo site that we have created for Medcare Hospital. Obvisouly medcare is not a real hospital, but we can change the content of the website based on a real hospital.
+Pranav: Pranav: So this site, is a demo site that we have created for Medcare Hospital. Obvisouly medcare is not a real hospital, but if we are using this template with any real hospital we can change the content accordingly as we have added the most common features every hospital website has. 
 
 Omeshwar: So we have created the interface simple and classic so that any common people who is not much familar with the technology can use the website smoothly without any problems. Each and every main contents are avaliable on the home page that can be easily accessbile. 
 
