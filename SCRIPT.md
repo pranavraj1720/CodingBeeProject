@@ -34,7 +34,9 @@ So our main sections include, Our Speciality, Our services, About us, Book Now, 
 Pranav: Also our site is fully responsivess, and compatible with all devices.
 We have also hosted this website on github pages.
 
+## Conclusion
 Omeshwar: So we have completed our speech, if you have any questions you can ask?
+Both: Thank You!
 
 
 
