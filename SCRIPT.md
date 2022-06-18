@@ -1,11 +1,10 @@
 
 ## Introduction
 Pranav: Good Morning Everyone Present here and the respected jury.
-My name is Pranav 
+My name is Pranav.
 
-Omeshwar: And My name is Omeshwar
-
-Both: We are from Podar International School, Vadodara.
+Omeshwar: And My name is Omeshwar.
+We are from Podar International School, Vadodara.
 
 Pranav: We are thankful for this immense opportunity that we presenting our idea on this huge platform.
 
@@ -27,10 +26,10 @@ e can add others services which they are providing but in this we have included 
 
 Omeshwar: Also the images we have used in this site are vector images not real images as medcare is not a real hospital. We have used vector images because they are copyright free and all the images can be used in svg format which is very good for the SEO of the website. Accordinly if we are working with a real hospital we can add their own images in place of vector images so that it can look more realistic.
 
-Pranav: Our main aim is that every common person should able to access all the information realted to hospital and get a smooth experience with our website as well as our hospital. 
+Pranav: Our main aim is that every common person should able to access all the information realted to hospital and get a smooth experience with our website as well as our hospital. Now we have completed why we have created this website. 
 
-Omeshwar: So let me tell you the sections we have added in the this website. 
-So our main sections include , Our Speciality Section, Our services Section, About us Section, Book Now Section, and a specially dedicated section for covid 19.
+Omeshwar: So now let me tell you which elements we have used in this website. 
+So our main sections include, Our Speciality, Our services, About us, Book Now, and a specially dedicated section for covid 19.
 
 Pranav: Also our site is fully responsivess, and compatible with all devices.
 We have also hosted this website on github pages.
