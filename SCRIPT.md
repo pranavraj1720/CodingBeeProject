@@ -20,7 +20,7 @@ Pranav: So this site, is a Template that we have created for Medcare Hospital. O
 
 Omeshwar: So we have created the interface simple and classic so that any common person who is not much familar with the technology can use the website smoothly without any problems. Each and every main contents are avaliable on the home page that can be easily accessbile. 
 
-Pranav: For Example, we have created an section of book appointment where anyone can fill the basic details like name, mobile number, email id and book appointment with one of our doctors based on the disease they have choosen.
+Pranav: For Example, we have created an section of book appointment where anyone can fill the basic details like name, mobile number, email id and book appointment with one of our doctors
 
 Pranav: Our main aim is that every common person should able to access all the information realted to hospital and get a smooth experience with our website as well as our hospital. Now we have completed why we have created this website. 
 
